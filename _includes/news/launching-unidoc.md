@@ -1,3 +1,5 @@
+Today we are releasing [UniDoc](http://unidoc.io) version 1.0, a comprehensive PDF toolkit written in [Golang](https://golang.org).
+
 At [FoxyUtils](https://foxyutils.com) we have been using various libraries for manipulating PDF libraries
 over the years and never been completely happy with what we have used. In the last couple of years we
 have been leaning towards [Golang](https://golang.org) for our architecture. This means we have been having
@@ -10,12 +12,13 @@ updated to entirely use the new library for the following services:
  * ProtectPDF
  * UnlockPDF
 
-[UniDoc](http://unidoc.io) is starting out as a PDF toolkit, but will be expanding to a general document
+[UniDoc](http://unidoc.io) is starting out as a PDF toolkit for Go, but will be expanding to a general document
 processing libraries with support to read and write PDF, Doc, DocX and more formats. Contribution from the
 community is crucial to help us achieve our goal.
 
 We have big plans to improve it to support a lot for functionality:
 
+ * Command Line Interface for the most common operations, useful for sysadmins.
  * Compress PDF
  * JPG to PDF
  * PDF to JPG
@@ -24,5 +27,14 @@ We have big plans to improve it to support a lot for functionality:
  * OCR engine to generate searchable PDF from scanned data
  * Conversions from any format to another that makes sense e.g. PDF to Word, Word to PDF.
 
+Go has an excellent toolchain which makes it possible to create language bindings for:
+
+ * Python - We are considering [GoPy](https://github.com/go-python/gopy) for this. This will be the first step.
+ * Java and C# if there is interest and demand.
+ * Ruby if there is interest and demand.
+ * Other languages will be considered
+
 We are releasing this under a dual AGPL/Commercial license as we need to help fund further development to
 achieve our goals.
+
+More on this on [GitHub](https://github.com/unidoc/unidoc).
