@@ -1,20 +1,36 @@
 Today we are releasing [UniDoc](http://unidoc.io) version 1.0, a comprehensive PDF toolkit written in [Golang](https://golang.org).
 
-At [FoxyUtils](https://foxyutils.com) we have been using various libraries for manipulating PDF libraries
+## Background
+
+At [FoxyUtils](https://foxyutils.com) we have been using various libraries for PDF manipulation
 over the years and never been completely happy with what we have used. In the last couple of years we
-have been leaning towards [Golang](https://golang.org) for our architecture. This means we have been having
-to shell out and calling external APIs. As a result we have been developing a library in the background and
-are pleased to announce that our baby has been born and is ready for the prime time. FoxyUtils.com has been
+have been migrating our code-base to [Golang](https://golang.org) and have completed porting of our
+existing python code. In order to use the same libraries as used in python we had to to shell out and call
+external APIs. As a result we have been developing a PDF toolkit in Go and
+we are pleased to announce that our baby has been born and is ready for the prime time. [FoxyUtils.com](https://foxyutils.com) has been
 updated to entirely use the new library for the following services:
 
- * MergePDF
- * SplitPDF
- * ProtectPDF
- * UnlockPDF
+ * [MergePDF](https://foxyutils.com/mergepdf/)
+ * [SplitPDF](https://foxyutils.com/splitpdf/)
+ * [ProtectPDF](https://foxyutils.com/protectpdf/)
+ * [UnlockPDF](https://foxyutils.com/protectpdf/)
 
 [UniDoc](http://unidoc.io) is starting out as a PDF toolkit for Go, but will be expanding to a general document
 processing libraries with support to read and write PDF, Doc, DocX and more formats. Contribution from the
 community is crucial to help us achieve our goal.
+
+## Overview and features
+
+* Read and extract PDF metadata.
+* Merge PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_merge.go)).
+* Split PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_split.go)).
+* Protect PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_protect.go)).
+* Unlock PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_unlock.go)).
+* The library aims to be fast and we process large PDF's in large quantities.
+* Self contained and depends only on the Go standard library.
+* Developer friendly.
+
+## Roadmap
 
 We have big plans to improve it to support a lot for functionality:
 
@@ -26,15 +42,25 @@ We have big plans to improve it to support a lot for functionality:
  * Search/replace PDFs - Edit functionality
  * OCR engine to generate searchable PDF from scanned data
  * Conversions from any format to another that makes sense e.g. PDF to Word, Word to PDF.
+ * Create nice interface for generating reports with export capabilities to PDF and DocX.
+
+We feel we are about to start an exciting journey of bringing the Go community an exciting document manipulation library.
+
+## Languages
 
 Go has an excellent toolchain which makes it possible to create language bindings for:
 
- * Python - We are considering [GoPy](https://github.com/go-python/gopy) for this. This will be the first step.
+ * [Go](https://golang.org) - The library is written in Go so it works out of the box.
+ * Python - We are considering [GoPy](https://github.com/go-python/gopy) for this. This will be the first step towards language bindings.
  * Java and C# if there is interest and demand.
  * Ruby if there is interest and demand.
- * Other languages will be considered
+ * Other languages will be considered if there is interest and demand.
+
+## Licensing
 
 We are releasing this under a dual AGPL/Commercial license as we need to help fund further development to
 achieve our goals.
 
-More on this on [GitHub](https://github.com/unidoc/unidoc).
+## More information
+
+For information and examples see [GitHub](https://github.com/unidoc/unidoc) and the project [website](http://unidoc.io).
