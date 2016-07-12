@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+{% for post in site.data.posts %}
+{% if post.published %}
+<div class="post">
+    <h1><a href="/news/{{ post.slug }}">{{ post.title }}</a></h1>
+    <div class="timestamp">{{ post.date | date: '%B %d, %Y at %H:%M' }}</div>
+
+    {% capture my-include %}{% include /news/{{ post.slug }}.md %}{% endcapture %}
+    {{ my-include | markdownify }}
+</div>
+{% endif %}
+{% endfor %}

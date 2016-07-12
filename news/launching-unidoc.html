@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+{% assign slug = "launching-unidoc" %}
+
+{% for post in site.data.posts %}
+{% if post.slug == slug %}
+<div class="post">
+    <h1>{{ post.title }}</h1>
+    <div class="timestamp">{{ post.date | date: '%B %d, %Y at %H:%M' }}</div>
+
+    {% capture my-include %}{% include /news/{{ post.slug }}.md %}{% endcapture %}
+    {{ my-include | markdownify }}
+</div>
+{% endif %}
+{% endfor %}
