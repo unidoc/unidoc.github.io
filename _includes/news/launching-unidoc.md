@@ -4,10 +4,15 @@ have been leaning towards [Golang](https://golang.org) for our architecture. Thi
 to shell out and calling external APIs. As a result we have been developing a library in the background and
 are pleased to announce that our baby has been born and is ready for the prime time. FoxyUtils.com has been
 updated to entirely use the new library for the following services:
+
  * MergePDF
  * SplitPDF
  * ProtectPDF
  * UnlockPDF
+
+[UniDoc](http://unidoc.io) is starting out as a PDF toolkit, but will be expanding to a general document
+processing libraries with support to read and write PDF, Doc, DocX and more formats. Contribution from the
+community is crucial to help us achieve our goal.
 
 We have big plans to improve it to support a lot for functionality:
 
@@ -19,4 +24,5 @@ We have big plans to improve it to support a lot for functionality:
  * OCR engine to generate searchable PDF from scanned data
  * Conversions from any format to another that makes sense e.g. PDF to Word, Word to PDF.
 
-We are releasing this under a dual AGPL/Commercial license.
+We are releasing this under a dual AGPL/Commercial license as we need to help fund further development to
+achieve our goals.
