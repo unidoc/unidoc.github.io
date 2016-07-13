@@ -1,4 +1,4 @@
-Today we are releasing [UniDoc](http://unidoc.io) version 1.0, a comprehensive PDF toolkit written in [Golang](https://golang.org).
+Today we are releasing [UniDoc](http://unidoc.io) version 1.0, a comprehensive open source PDF toolkit written in [Go](https://golang.org).
 
 ## Background
 
