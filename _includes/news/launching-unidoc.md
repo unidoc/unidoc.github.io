@@ -13,11 +13,16 @@ updated to entirely use the new library for the following services:
  * [MergePDF](https://foxyutils.com/mergepdf/)
  * [SplitPDF](https://foxyutils.com/splitpdf/)
  * [ProtectPDF](https://foxyutils.com/protectpdf/)
- * [UnlockPDF](https://foxyutils.com/protectpdf/)
+ * [UnlockPDF](https://foxyutils.com/unlockpdf/)
 
 [UniDoc](http://unidoc.io) is starting out as a PDF toolkit for Go, but will be expanding to a general document
 processing libraries with support to read and write PDF, Doc, DocX and more formats. Contribution from the
 community is crucial to help us achieve our goal.
+
+## Installation
+~~~
+go get github.com/unidoc/unidoc
+~~~
 
 ## Overview and features
 
