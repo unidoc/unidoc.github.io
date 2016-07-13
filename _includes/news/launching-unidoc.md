@@ -30,9 +30,13 @@ community is crucial to help us achieve our goal.
 * Self contained and depends only on the Go standard library.
 * Developer friendly.
 
+## Examples
+
+See the [examples](https://github.com/unidoc/unidoc/tree/master/examples) folder.
+
 ## Roadmap
 
-We have big plans to improve it to support a lot for functionality:
+We have big plans to improve it to support a lot of functionality:
 
  * Command Line Interface for the most common operations, useful for sysadmins.
  * Compress PDF
@@ -56,11 +60,10 @@ Go has an excellent toolchain which makes it possible to create language binding
  * Ruby if there is interest and demand.
  * Other languages will be considered if there is interest and demand.
 
-## Licensing
+## Licensing/Pricing
 
-We are releasing this under a dual AGPL/Commercial license as we need to help fund further development to
-achieve our goals.
+We are releasing this under a dual AGPL/Commercial license as we need to help fund further development to achieve our goals. See [pricing](http://unidoc.io/pricing).
 
 ## More information
 
-For information and examples see [GitHub](https://github.com/unidoc/unidoc) and the project [website](http://unidoc.io).
+For information see [GitHub](https://github.com/unidoc/unidoc) and the project [website](http://unidoc.io).

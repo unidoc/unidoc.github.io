@@ -250,6 +250,10 @@ a {
     color: #9a9a9a;
 }
 
+.tooltip {
+  text-decoration: underline;
+  cursor: help;
+}
 
 nav {
   background-color: #fff;
