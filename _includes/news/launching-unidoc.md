@@ -43,8 +43,6 @@ See the [examples](https://github.com/unidoc/unidoc/tree/master/examples) folder
 
 We have big plans to improve it to support a lot of functionality:
 
- * Command Line Interface for the most common operations, useful for sysadmins.
- * Standalone Web API.
  * Compress PDF.
  * JPG to PDF.
  * PDF to JPG.
