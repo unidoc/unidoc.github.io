@@ -44,12 +44,13 @@ See the [examples](https://github.com/unidoc/unidoc/tree/master/examples) folder
 We have big plans to improve it to support a lot of functionality:
 
  * Command Line Interface for the most common operations, useful for sysadmins.
- * Compress PDF
- * JPG to PDF
- * PDF to JPG
- * High-level API to create PDF
- * Search/replace PDFs - Edit functionality
- * OCR engine to generate searchable PDF from scanned data
+ * Standalone Web API.
+ * Compress PDF.
+ * JPG to PDF.
+ * PDF to JPG.
+ * High-level API to create PDF.
+ * Search/replace PDFs - Edit functionality.
+ * OCR engine to generate searchable PDF from scanned data.
  * Conversions from any format to another that makes sense e.g. PDF to Word, Word to PDF.
  * Create nice interface for generating reports with export capabilities to PDF and DocX.
 
@@ -72,3 +73,8 @@ We are releasing this under a dual AGPL/Commercial license as we need to help fu
 ## More information
 
 For information see [GitHub](https://github.com/unidoc/unidoc) and the project [website](http://unidoc.io).
+
+## Stay up to date
+
+* Follow us on [twitter](https://twitter.com/unidoclib)
+* Sign-up for our [newsletter](http://eepurl.com/b9Idt9)
