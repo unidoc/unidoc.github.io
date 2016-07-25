@@ -27,17 +27,17 @@ go get github.com/unidoc/unidoc
 ## Overview and features
 
 * Read and extract PDF metadata.
-* Merge PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_merge.go)).
-* Split PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_split.go)).
-* Protect PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_protect.go)).
-* Unlock PDF ([example](https://github.com/unidoc/unidoc/blob/master/examples/pdf/pdf_unlock.go)).
+* Merge PDF ([example](https://github.com/unidoc/unidoc-examples/blob/master/pdf/pdf_merge.go)).
+* Split PDF ([example](https://github.com/unidoc/unidoc-examples/blob/master/pdf/pdf_split.go)).
+* Protect PDF ([example](https://github.com/unidoc/unidoc-examples/blob/master/pdf/pdf_protect.go)).
+* Unlock PDF ([example](https://github.com/unidoc/unidoc-examples/blob/master/pdf/pdf_unlock.go)).
 * The library aims to be fast and we process large PDF's in large quantities.
 * Self contained and depends only on the Go standard library.
 * Developer friendly.
 
 ## Examples
 
-See the [examples](https://github.com/unidoc/unidoc/tree/master/examples) folder.
+See the [examples](https://github.com/unidoc/unidoc-examples/tree/master) folder.
 
 ## Roadmap
 
